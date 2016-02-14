@@ -28,19 +28,7 @@ span{
 }
 
 div#element {
-        
-/*
-    margin-top: 0px;
-    display: block;
-    text-align: center;
-    vertical-align:middle;
-    top: 50%;
-    
-    margin-top: 10vh;
-    line-height: 80vh;
-    
-*/
-    
+
     position: absolute;
  	top: 50%;
  	left: 50%;
