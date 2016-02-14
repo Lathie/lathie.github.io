@@ -52,13 +52,6 @@ div#element {
     /*font-family: 'Ubuntu', sans-serif;*/
 
 }
-/*
-@font-face {
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  src: local('FontAwesome'), url(/font/FontAwesome.otf') format('truetype');
-}*/
 
 div#links a{
 
@@ -146,4 +139,8 @@ body {
     bottom: 0;
     right: 0;
     
+}
+
+#basic {
+
 }
