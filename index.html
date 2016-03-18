@@ -4,6 +4,7 @@
         <title>Victor Niu</title>
 
         <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="/css/style.css">
 
@@ -14,26 +15,27 @@
     <body>
         <div id="element">
             <span id="header"></span>
-            <span id="subHeader"></span>
+<!--            <span id="subHeader"></span>-->
         </div>
 
         <div id="footer">
 
-            <div id="input">
-
-            </div>
 
             <div id="links">
-                <a target="_blank" href="https://www.overleaf.com/read/zqtvjssskbqx" class="fa fa-file-text" title="Resume"></a>
-                <a target="_blank" href="mailto:bniu2@illinois.edu?Subject=Hi%20Victor" class="fa fa-envelope" title="Mail Me Something"></a>
-                <a target="_blank" href="https://github.com/Lathie/" class="fa fa-github-alt" title="Github"></a>
-                <a target="_blank" href="http://linkedin.com/in/victorniu" class="fa fa-linkedin" title="LinkedIn"></a>
-                <a target="_blank" href="https://www.facebook.com/niuvictor" class="fa fa-facebook" title="Facebook"></a>
+                
                 <a target="_blank" href="http://c.xkcd.com/random/comic/" class="fa fa-question" title="What could this be?"></a>
+                <a target="_blank" href="https://www.facebook.com/niuvictor" class="fa fa-facebook" title="Facebook"></a>
+                <a target="_blank" href="http://linkedin.com/in/victorniu" class="fa fa-linkedin" title="LinkedIn"></a>
+                <a target="_blank" href="https://github.com/Lathie/" class="fa fa-github-alt" title="Github"></a>
+                <a target="_blank" href="mailto:bniu2@illinois.edu?Subject=Hi%20Victor" class="fa fa-envelope" title="Mail Me Something"></a>
+                <a target="_blank" href="https://www.overleaf.com/read/zqtvjssskbqx" class="fa fa-file-text" title="Resume"></a>
+            
             </div>
-
-            <div id="input">
-
+            
+            <div id="hack">
+            </div>
+            
+            <div contenteditable id="input" spellcheck="false">
             </div>
         </div>
 
@@ -41,19 +43,9 @@
         <script src="/js/typed.js"></script>
         <script src="/js/jquery.auto-grow-input.min.js"></script>
         <!--        <script src="/js/jquery.terminal-0.9.3.min.js"></script>-->
-        <script type="text/javascript">
+        <script type="text/javascript" src="js/talk.js">
 
-            $(function(){
-
-                $("#element span#header").typed({
-                    strings: ["Hi^2000", "I'm Victor Niu.", "My friends call me Victor, because that is my name.", "This website is still under construction...", "But please check out my stuff :D"," Just head over to the lower right corner.", "...^1000", "......^5000", "Why are you still here?", "Ok I guess if you want to stay you can.", "I mean there's not much else for me to say.", "And there's going to be nothing at the end of this.", "You'll just be wasting your time.", "...^2000<br>....^2000<br>.....", "Well if you insist,", "I guess I can re-introduce myself."],
-                    typeSpeed: 20,
-                    backDelay: 1000,
-                    loop: true,
-                    loopCount: false,
-
-                });
-            });
+        
 
         </script>
 
