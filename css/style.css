@@ -36,6 +36,7 @@ div#element {
 
  	text-align: center;
     font-size: 200%;
+    overflow-y: visible;
     
     /*font-family: 'Ubuntu', sans-serif;*/
 
@@ -100,6 +101,7 @@ body {
 	line-height: 1;
     overflow-y: hidden;
     font-family: 'Ubuntu', sans-serif;
+    background-color: #343838;
 }
 ol, ul {
 	list-style: none;
@@ -117,18 +119,87 @@ table {
 	border-spacing: 0;
 }
 
-body {
-    background-color: #343838;
-}
-
 #links {
     display: block;
     position: absolute;
     bottom: 0;
     right: 0;
+    width: 30%;
+
     
+}
+
+#links a{
+    float: right;
 }
 
 #basic {
 
+}
+
+
+/*
+#input:before{
+    content: '> ';
+    margin-left:-30px;
+    line-height: 1.618em;
+}
+*/
+
+
+#input {
+    background-color: #343838; /*debug here */
+
+    width: 60%;
+    height: 1.618em;
+    display: block;
+
+    position: absolute;
+    bottom:0;
+    left:40px;
+    
+    line-height: 1.618em;
+    vertical-align: middle;
+    font-family: 'Ubuntu Mono', sans-serif;
+    font-size: 1.618em;
+    padding: calc((2em-1.618em)/2);
+/*    padding-left: 50px;*/
+    text-decoration: none;
+    
+    color:  #00DFFC;
+/*    overflow-y: hidden;*/
+
+    
+
+}
+
+#footer {
+    margin:0px;
+    display:inline-block;
+}
+
+#hack:before{
+    content:'>';
+}
+
+#hack {
+    background-color:#343838;
+    width:0.809em;
+    height:1.618em;
+    display:block;
+    position:absolute;
+    bottom: 0;
+    left:0;
+    font-family: 'Ubuntu Mono', sans-serif;
+    font-size: 1.618em;
+    color: #00DFFC;
+/*    padding: calc((2em-1.618em)/2);*/
+    padding-left: .9em;
+
+    line-height: 1.618em;
+
+}
+
+#header {
+    overflow-y: visible;
 }
