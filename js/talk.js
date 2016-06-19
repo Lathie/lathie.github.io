@@ -46,7 +46,7 @@ $(function(){
         strings: default_org,
         typeSpeed: 10,
         backDelay: 1500,
-//        loop: true,
+        loop: true,
         loopCount: false,
 
     });    
