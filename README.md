@@ -1,2 +1,3 @@
 # lathie.github.io
-Website
+
+This is my personal Website
